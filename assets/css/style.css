@@ -1,10 +1,12 @@
 :root {
+    --mainBGColor: rgb(51, 51, 51);
     --navBGColor: rgb(51, 51, 51);
     --navWidth: 100px;
 }
 
 body {
     margin-left: var(--navWidth);
+    background-color: var(--mainBGColor);
 }
 
 
@@ -35,7 +37,7 @@ body {
 }
 
 .btnSmall{
-    bottom: 0;
+    bottom: -82%;
 }
 
 .navbar{
@@ -48,6 +50,9 @@ body {
     /* Sizing */
     width: 100px;
     height: 100%;
+
+    /* Style */
+    box-shadow: 1px 1px 5px black;
 
     /* Color */
     background-color: var(--navBGColor);
