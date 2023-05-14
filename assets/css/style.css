@@ -1,0 +1,63 @@
+:root {
+    --navBGColor: rgb(51, 51, 51);
+    --navWidth: 100px;
+}
+
+body {
+    margin-left: var(--navWidth);
+}
+
+
+/* -- Navigation Bar -- */
+.navBtn {
+
+    /* Style */
+    border-radius: 25px;
+
+    /* Sizing */
+    width: 100px;
+    height: 30px;
+
+    /* Color */
+    background-color: silver;
+}
+
+.navBtnSmall {
+    width: 40px;
+    height: 30px;
+
+
+    background-color: silver;
+}
+
+.btn {
+    top: 0;
+}
+
+.btnSmall{
+    bottom: 0;
+}
+
+.navbar{
+    /* Flex */
+    display: flex;
+    flex-flow: column;
+
+    position: fixed;
+    left: 0;
+    /* Sizing */
+    width: 100px;
+    height: 100%;
+
+    /* Color */
+    background-color: var(--navBGColor);
+}
+
+.navbar div{
+    position: relative;
+}
+/* -- Navigation Bar End -- */
+
+footer {
+    position: relative;
+}
