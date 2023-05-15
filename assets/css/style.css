@@ -37,7 +37,7 @@ body {
 }
 
 .btnSmall{
-    bottom: -82%;
+    top: 0;
 }
 
 .navbar{
@@ -49,10 +49,10 @@ body {
     left: 0;
     /* Sizing */
     width: 100px;
-    height: 100%;
+    height: 99.5%;
 
     /* Style */
-    box-shadow: 1px 1px 5px black;
+    box-shadow: 1px 1px 5px 1px black;
 
     /* Color */
     background-color: var(--navBGColor);
