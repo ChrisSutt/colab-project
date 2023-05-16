@@ -9,39 +9,13 @@ body {
     background-color: var(--mainBGColor);
 }
 
-
 /* -- Navigation Bar -- */
-.navBtnMiddle {
-
-    /* Style */
-    border-radius: 25px;
-
-    /* Sizing */
-    width: 96px;
-    height: 30px;
-
-    /* Color */
-    background-color: silver;
-}
-
-.navBtnBottom {
-    /* Style */
-    border-color: black;
-    border-radius: 5px;
-    
-    /* Sizing */
-    width: 40px;
-    height: 30px;
-
-    /* Color */
-    background-color: rgb(60, 60, 60);
-}
-
 .navbar{
+    /* Position */
     position: fixed;
     left: 0;
 
-    /* Sizing */
+    /* Size */
     width: 100px;
     height: 99.5%;
 
@@ -57,43 +31,84 @@ body {
     /* Color */
     background-color: var(--navBGColor);
 }
+.navBtnMiddle {
+    /* Position */
+    margin-left: 1px;
 
+    /* Size */
+    width: 96px;
+    height: 30px;
+
+    /* Style */
+    border-radius: 5px;
+    font-size: 12px;
+    font-weight: bolder;
+
+    /* Color */
+    color: silver;
+    background-color: rgb(60, 60, 60);
+}
+.navBtnBottom {
+    /* Size */
+    width: 40px;
+    height: 30px;
+
+    /* Style */
+    border-color: black;
+    border-radius: 5px;
+    
+    /* Color */
+    background-color: rgb(60, 60, 60);
+}
 .navContent {
     position: static;
 }
-
+    /* Top Box */
 .topBox {
-    position: absolute;
+    position: relative;
+    margin-bottom: 10px;
 }
+.topBox .a {
+    /* Size */
+    height: 30px;
+    padding-top: 5px;
 
+    /* Style */
+    font-family: monospace;
+    text-align: center;
+    border-bottom: 2px ridge black;
+
+    /* Color */
+    color: rgb(219, 185, 99);
+    background-color: black;
+}
+    /* Middle Box */
 .middleBox {
-    position: absolute;
-    bottom: 50%;
+    position: relative;
 }
-
+.middleBox .a {
+    margin-bottom: 10px;
+}
+    /* Bottom Box */
 .bottomBox {
     display: flex;
     flex-direction: row;
-
 }
-
 .bottomBox .a {
     position: absolute;
     left: 2px;
     bottom: 0;
 }
-
 .bottomBox .b {
     position: absolute;
     right: 2px;
     bottom: 0;
 }
-/* -- Navigation Bar End -- */
-
-footer {
-    position: relative;
+.bottomBox .c {
+    position: absolute;
+    bottom: 40px;
 }
-
+/* -- Navigation Bar End -- */
 
 /* TODO PAGE
 .taskbox
